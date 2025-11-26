@@ -1,0 +1,7 @@
+{
+  "name": "Claude Code Action",
+  "description": "AI-powered code assistant for PRs and issues. Mention @claude to get help with code reviews, implementations, and questions.",
+  "iconName": "octicon robot",
+  "categories": ["Automation", "Code quality"],
+  "filePatterns": ["!zephyr", "!msdk", "!hal_adi"]
+}
