@@ -12,8 +12,6 @@ on:
 
 jobs:
   claude:
-    # Only run on non-fork repos to keep Claude internal to Croxel
-    if: github.event.repository.fork == false
     runs-on: ubuntu-latest
     permissions:
       contents: write
